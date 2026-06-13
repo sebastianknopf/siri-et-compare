@@ -1,6 +1,6 @@
 # SIRI / ITCS Temporal Analysis Report
 
-Generated: 2026-06-13 20:32:37 UTC
+Generated: 2026-06-13 20:56:52 UTC
 
 ## 1. Study Design and Data Scope
 This report evaluates temporal characteristics of real-time public transport information flows between an ITCS source system and SIRI-ET snapshots.
@@ -52,6 +52,7 @@ Event propagation latency measures the delay between an ITCS event occurrence an
 
 ### Distribution
 ![3. Event Propagation Latency](results/event_propagation_latency.png)
+![3. Event Propagation Latency](results/event_propagation_latency_detail.png)
 
 ## 4. Snapshot Staleness
 
