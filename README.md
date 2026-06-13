@@ -1,6 +1,6 @@
 # SIRI / ITCS Temporal Analysis Report
 
-Generated: 2026-06-13 16:43:50 UTC
+Generated: 2026-06-13 16:46:49 UTC
 
 ## 1. Study Design and Data Scope
 This analysis investigates temporal coupling between ITCS event streams and SIRI-ET snapshots.
@@ -25,7 +25,7 @@ Statistical summary:
 - P99: 3.593
 
 Distribution:
-![2. Assimilation Latency](results\assimilation_latency.png)
+![2. Assimilation Latency](results/assimilation_latency.png)
 
 ## 3. Snapshot Staleness
 Time gap between ET creation and publication.
@@ -43,7 +43,7 @@ Statistical summary:
 - P99: 8184.598
 
 Distribution:
-![3. Snapshot Staleness](results\snapshot_staleness.png)
+![3. Snapshot Staleness](results/snapshot_staleness.png)
 
 ## 4. Publication Latency
 End-to-end delay from ITCS update to SIRI availability.
@@ -61,19 +61,18 @@ Statistical summary:
 - P99: 8187.827
 
 Distribution:
-![4. Publication Latency](results\publication_latency.png)
+![4. Publication Latency](results/publication_latency.png)
 
 ## 5. Post-snapshot ITCS Update Activity
-Number of ITCS updates after snapshot publication.
 
 - Mean: 5.856
 - Max: 47
 
 Distribution:
-![ITCS Updates](results\updates_after_snapshot.png)
+![ITCS Updates](results/updates_after_snapshot.png)
 
 ## 6. Interpretation
-The decomposition separates ingestion latency, system processing delay, and dissemination delay, allowing structured evaluation of real-time transport data pipelines.
+The decomposition separates ingestion latency, processing delay, and dissemination delay, enabling structured evaluation of real-time transport information systems.
 
 ## Appendix: Full Quantile Summary
 
