@@ -9,7 +9,6 @@ jupyter nbconvert `
     --to markdown `
     --output $MdFile `
     --TemplateExporter.exclude_input=True `
-    --ExtractOutputPreprocessor.enabled=False `
     $Notebook
 
 if ($LASTEXITCODE -eq 0) {
